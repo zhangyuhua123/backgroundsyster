@@ -12,6 +12,8 @@ export default {
  html,body{
      height: 100%;
      width: 100%;
+     overflow-x: auto;
+
  }   
 
 .app{
@@ -19,6 +21,7 @@ export default {
     top: 0px;
     bottom: 0px;
     width: 100%;
+    min-width: 1300px;
  
  
 }
