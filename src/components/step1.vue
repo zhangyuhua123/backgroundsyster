@@ -95,7 +95,7 @@
       </div>
       <div class="banner">
         <el-form :inline="true" :model="formInline" class="demo-form-inline">
-          <el-form-item label="中文名">
+          <el-form-item label="中文姓名">
             <el-input v-model="formInline.user" @blur="test8"></el-input>
             <div class="error6" v-show="pleasewhitename1">姓名只能为中文字符</div>
           </el-form-item>
